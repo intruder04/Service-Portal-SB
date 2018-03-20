@@ -1,0 +1,65 @@
+$background_color: #303a46;// Фон
+$text_color: #fff;// Текст
+$color_line_under_header: #455464;
+$color_bar: #397ff2;
+// -----------------------------
+.header {
+    width: 100%;
+    background: $background_color;
+    border-bottom: 3px solid $color_line_under_header;
+}
+
+#logoText {
+    letter-spacing: 0.03em;
+    font-size: 17pt;
+    font-weight: 300;
+    margin-left: 20px;
+    color: $text_color;
+}
+.header a:hover {
+    text-decoration: none;
+}
+.leftPart,
+.rightPart {
+    display: inline-block;
+}
+
+.rightPart {
+    float: right;
+}
+
+// logout по центру
+div.header>div:nth-child(2) {
+    margin-top: 0.4em;
+    margin-right: 1.5em;
+}
+
+#outHref {
+    padding: 0;
+    padding-right: 5%;
+    color: $text_color;
+}
+
+#searchBlock {
+    padding-right: 5%;
+}
+
+#iconMenu, #searchBlockMobile {
+    display: none;
+}
+
+.nanobar {
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+    top:0;
+    position: fixed !important;
+}
+.bar {
+    width: 0;
+    height: 100%;
+    transition: height .3s;
+    background: $color_bar;
+}
+
+

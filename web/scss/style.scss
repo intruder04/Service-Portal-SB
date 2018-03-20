@@ -1,0 +1,42 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    /*text-rendering: optimizeLegibility !important;*/
+    /*-webkit-font-smoothing: subpixel-antialiased !important;*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+// Отключаем yii блок 
+#w2 > div > div,.help-block {
+    display: none;
+}
+.label {
+    font-size: 80% !important;
+    font-weight: normal !important;
+}
+textarea {
+    box-sizing: border-box;
+    resize: none;
+}
+@import 'header';
+@import 'leftPanel';
+@import 'headerTable';
+@import 'bodyTable';
+
+#expluotationForm{
+    @import 'viewExploitation';
+}
+
+@import 'viewTransport'; 
+
+@media (max-width: 767px) {
+    @import 'headerMobile';
+    @import 'leftPanelMobile';
+    @import '_headerTableMobile.scss';
+}
+@media (max-width: 414px) {
+    @import 'otherStyle414';
+ }

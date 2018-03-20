@@ -1,0 +1,46 @@
+// Блок кнопок
+#tableBlock > div > div > div.panel.panel-default > div{
+    height: auto;
+    padding: 4px 0px;
+}
+#refreshButton {
+    margin-right: 30px;
+}
+#btnSave{
+    margin-right: 10px;
+}
+#btnInwork,#btnAuto {
+    float: right;
+    margin-right: 10px;
+}
+
+#exportBtn > div.summary{
+    display: inline-block;
+    color: #fff;
+    padding: 7px 18px;
+}
+
+#exportBtn > div.btn-group{
+    margin-right: 15px;
+}
+
+#w0-cols, #export-dropdown, #refreshButton {
+    font-size: 10pt;
+    padding: 5px 10px;
+    margin-top: 1px;
+}
+.summary {
+    font-size: 90%;
+}
+
+#exportBtn > div.btn-group,#refreshButton{
+    float: right;
+}
+
+#tableBlock > div > div > div.panel.panel-default{
+    margin-bottom: 0;
+    border: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #337ab7;
+}

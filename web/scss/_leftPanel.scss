@@ -1,0 +1,83 @@
+$background_left_panel: #303a46;
+$background_left_panel_child: #455464;
+$color_text_head_menu: #f3ffff;
+$color_text_a: #f3ffff;
+$color_text_a_hover: #23527c;
+
+#mainBlock {
+    padding: 0px;
+}
+
+.fav-data {
+    margin-top: 3px;
+}
+
+.fav-data a {
+    color: $color_text_a;
+}
+
+.fav-data a:hover {
+    color: $color_text_a_hover;
+}
+
+#filterName,#optionTransportName{
+    background-color: #2b5a84;
+    color:$color_text_head_menu;
+}
+
+#left-panel {
+    height: 95.3vh;
+    overflow-x: hidden;
+    background: $background_left_panel;
+    padding: 0px;
+    width: 16.6%;
+}
+
+#left-panel div {
+    background: $background_left_panel_child;
+    width: 16vw;
+}
+
+#left-panel li {
+    font-size: 0.9vw;
+}
+
+#left-panel>ul {
+    margin-top: 2px;
+}
+#left-panel > #show-panel {
+    margin-bottom: 3px;
+    height: 30px;
+    position: absolute;
+    bottom: 19px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #455464;
+    border-radius: 5px;
+}
+// Пульсация иконки при наведении на пункт фильтра
+#linkWg:hover i,
+#linkMy:hover i,
+#linkDoneMe:hover i,
+#cancelClient:hover i,
+#iconCar:hover i,
+#iconDriver:hover i{
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.9);
+            opacity: 0.7;
+        }
+        50% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(0.9);
+            opacity: 0.7;
+        }
+    }

@@ -1,0 +1,18 @@
+#refreshButton {
+    margin-right: 1px;
+}
+#exportBtn > div.summary {
+    padding: 7px 5px;
+    width: 100%;
+}
+#exportBtn > div.btn-group{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#exportBtn > div.btn-group,#refreshButton{
+    float: left;
+    display: inline-block;
+ }
+ #refreshButton{
+     width: 100%;
+ }

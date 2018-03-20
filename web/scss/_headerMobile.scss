@@ -1,0 +1,40 @@
+
+    $background_color: #303a46;// Фон
+    #iconMenu {
+        display: inline-block;
+        color: #fff;
+        padding-left: 10px;
+    }
+    #iconMenu:hover {
+        cursor: pointer;
+    }
+    #searchBlock {
+        display: none;
+    }
+    #searchBlockMobile {
+        display: none;
+        height: auto;
+        width: 100%;
+        background: $background_color;
+        padding-bottom: 2px;
+    }
+    #searchBlockMobile input {
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 91.5%;
+    }
+    #searchBlockMobile form {
+        margin-left: 8px;
+    }
+    #globalsearch-query {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        width: 12em;
+        height: 30px !important;
+        margin-top: 2px !important;
+    }
+    #btnMobile {
+        margin-top: -4px;
+    }
+  

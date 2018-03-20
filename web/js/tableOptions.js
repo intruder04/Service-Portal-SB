@@ -1,0 +1,1 @@
+$('td input').css("background-color: #EEEEEE;");

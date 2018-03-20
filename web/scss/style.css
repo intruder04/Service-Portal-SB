@@ -1,0 +1,45 @@
+/*
+Error: Invalid US-ASCII character "\xD0"
+        on line 12 of style.scss
+
+7:     overflow-x:hidden;
+8:     /*text-rendering: optimizeLegibility !important;*\/
+9:     /*-webkit-font-smoothing: subpixel-antialiased !important;*\/
+10:     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+11: }
+12: // Отключаем yii блок 
+13: #w2 > div > div,.help-block {
+14:     display: none;
+15: }
+16: .label {
+17:     font-size: 80% !important;
+
+Backtrace:
+style.scss:12
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:1048:in `rescue in block in find_encoding_error'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:1045:in `block in find_encoding_error'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:1044:in `each'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:1044:in `each_with_index'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:1044:in `find_encoding_error'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/util.rb:772:in `check_sass_encoding'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:444:in `check_encoding!'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:400:in `_to_tree'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/intruder04/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.1/bin/scss:13:in `<top (required)>'
+/Users/intruder04/.rbenv/versions/2.4.1/bin/scss:22:in `load'
+/Users/intruder04/.rbenv/versions/2.4.1/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xD0\"\A         on line 12 of style.scss\A \A 7:     overflow-x:hidden;\A 8:     /*text-rendering: optimizeLegibility !important;*/\A 9:     /*-webkit-font-smoothing: subpixel-antialiased !important;*/\A 10:     font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif !important;\A 11: }\A 12: // Отключаем yii блок \A 13: #w2 > div > div,.help-block {\A 14:     display: none;\A 15: }\A 16: .label {\A 17:     font-size: 80% !important;"; }

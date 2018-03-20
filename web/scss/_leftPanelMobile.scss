@@ -1,0 +1,28 @@
+#left-panel {
+    display: none;
+    height: auto;
+}
+
+#show-panel {
+    display: none;
+}
+// Блоки с пунктами фильтров и справочников
+#left-panel div {
+    width: 100%;
+}
+// Пункты фильтров и справочников
+#filters a,#handbooks a{
+    padding: 2px 10px;
+    font-size: 2.2em;
+    text-align: center;
+}
+// Заголовки меню урезаем по ширине
+#left-panel > ul.nav.nav-pills.nav-stacked a{
+    padding: 2px 10px;
+}
+// Заголовки меню по центру
+#filterName,#optionTransportName{
+    font-size: 2.3em;
+    text-align: center;
+}
+

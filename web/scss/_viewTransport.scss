@@ -1,0 +1,185 @@
+#orderTaxi{
+    margin-top: -11px;
+}
+
+#orderTaxi .panel{
+    border: none;
+}
+
+#orderTaxi label{
+    font-weight: normal;
+    font-size: 10pt;
+    vertical-align: top;
+}
+
+#orderTaxi input,textarea,select{
+    border-radius: 4px;
+    border: 1px solid #c6cad3;
+}
+
+#orderTaxi input:disabled,textarea:disabled,select:disabled{
+    border:none;
+    background: #f5f5f5;
+    cursor: default;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: 1px solid #c6cad3;
+}
+
+.panel-body{
+    padding: 5px;
+}
+#orderTaxi > div > div.col-lg-12 > nav{
+    margin-bottom: 5px;
+}
+
+#orderTaxi input, button, select, textarea{
+    margin-bottom: 6px;
+}
+
+#orderTaxi > div > div > div.panel-group{
+    margin-bottom: 0px;
+}
+/*Header*/
+#orderTaxi > div > div.col-lg-12 > div.panel.panel-default{
+    margin-bottom: 15px;
+}
+#orderTaxi > div > div.col-lg-12 > div.panel.panel-default > div{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#btnSave{
+    float: right;
+}
+
+#orderTaxi > div > div.col-lg-12 > div.panel.panel-default > div > a.btn.btn-default.r-align.btn-md.fa.fa-chevron-down{
+    margin-left: 60px;
+}
+/*End Header*/
+
+/*Блок 1*/
+#orderTaxi > div > div{
+    left:50%;
+    transform: translateX(-50%);
+}
+#orderTaxi > div > div > div.col-lg-5 > div > div  label{
+    width: 35%;
+}
+#orderTaxi > div > div > div.col-lg-5 > div > div input{
+    width: 62%;
+}
+#orderTaxi > div > div > div.col-lg-5 > div > div textarea{
+    width: 62%;
+}
+
+#orderTaxi > div > div > div.col-lg-5 {
+    padding-left: 0px;
+}
+#orderTaxi > div > div.col-lg-12 > div.col-lg-5 > div > div.panel-body{
+    padding-bottom: 8.45%;
+}
+/*#orderTaxi > div > div > div.col-lg-5 > div > div > div:nth-child(4) > label{*/
+    /*position: relative;*/
+    /*top:-20px*/
+/*}*/
+#orderTaxi > div > div.col-lg-12 > div.col-lg-5 > div > div.panel-body{
+    padding-bottom: 9%;
+}
+/*#orderTaxi > div > div.col-lg-12 > div.col-lg-5 > div > div.panel-body > div:nth-child(4) > label{*/
+    /*position: relative;*/
+    /*top: -49px;*/
+/*}*/
+
+#orderTaxi > div > div.col-lg-12 > div.col-lg-5 > div > div.panel-body,
+#orderTaxi > div > div.col-lg-12 > div.col-lg-7 > div.container-fluid > div > div:nth-child(1) > div > div.panel-body,
+#orderTaxi > div > div.col-lg-12 > div.col-lg-7 > div.container-fluid > div > div:nth-child(2) > div > div.panel-body,
+#orderTaxi > div > div.col-lg-12 > div.col-lg-7 > div.panel.panel-success > div.panel-body,
+#orderTaxi > div > div.col-lg-10 > div > div.panel-body,
+#orderTaxi > div > div.col-lg-12 > div.panel.panel-default{
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+#requeststransport-ride_end_time-disp-datetime > input{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+#requeststransport-ride_end_time-disp-datetime{
+    float: right;
+    width: 89%;
+    margin-right: -24%;
+}
+#orderTaxi > div > div > div > div > div > div:nth-child(7) > label {
+    float: left;
+}
+/*Блок 2*/
+#orderTaxi > div > div > div > div.container-fluid > div > div:nth-child(1) > div > div label{
+    width: 33%;
+}
+#orderTaxi > div > div > div > div.container-fluid > div > div:nth-child(1){
+    padding-left: 0px;
+}
+#orderTaxi > div > div.col-lg-12 > div.col-lg-7 > div.container-fluid > div > div:nth-child(1) > div > div.panel-body > div input,select {
+    width: 65%;
+}
+#requests-workgroup_id,#requests-assignee{
+    width: 57%;
+}
+/*Блок 3*/
+#orderTaxi > div > div > div > div.container-fluid > div > div:nth-child(2) > div > div label{
+    width: 33%;
+}
+
+#requests-status,
+#orderTaxi > div > div.col-lg-12 > div.col-lg-7 > div.container-fluid > div > div:nth-child(2) > div > div.panel-body input{
+    width: 57%;
+}
+#orderTaxi > div > div > div{
+    padding-right: 0px;
+}
+#orderTaxi > div > div > div > div.container-fluid > div > div:nth-child(2){
+    padding-right: 0px;
+}
+#orderTaxi > div > div > div.col-lg-7 > div.container-fluid > div > div:nth-child(2){
+    padding-left: 0px;
+}
+
+/*Блок 4*/
+#orderTaxi > div > div > div > div:nth-child(2) > div > div label{
+    width: 38%;
+}
+#orderTaxi > div > div > div > div:nth-child(2) > div > div input{
+    width: 60%;
+}
+
+/*Блок 5*/
+#orderTaxi > div > div.col-lg-10 > div > div.panel-body > div:nth-child(1) textarea,
+#orderTaxi > div > div.col-lg-10 > div > div.panel-body > div:nth-child(3) textarea {
+    width: 65%;
+}
+
+/*Автомобили****************/
+.transport-car-update > #w0 > div:nth-child(5) > button{
+    color: #fff;
+}
+ #orderTaxi > div > div.col-lg-10 > div > div.panel-body > div:nth-child(2) input{
+    width: 58%;
+}
+#orderTaxi > div > div.col-lg-10 > div > div.panel-body label{
+    width: 10%;
+}
+
+#orderTaxi .help-block {
+  margin-bottom: 6px;
+}
+
+input[placeholder]{
+    text-align:center;
+}
+
+
+@media (max-width: 767px) {
+   
+    #orderTaxi > div > div.col-lg-10 > div > div.panel-body label{
+        width: 20%;
+    }
+}
